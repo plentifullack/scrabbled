@@ -8,9 +8,10 @@ In output, scoring letters are shown as lowercase. Non-scoring (blank replacemen
 &lt;dictionaryFile&gt; is a locally accessible filespec for a list of known words (one word per line)
 
 usage:
-        scrabbled {targetLetters|-} <dictionaryFile>
+        scrabbled {targetLetters|-} &lt;dictionaryFile&gt;
 
  e.g,,
+ 
         ./scrabbled bro ~/mydictionary.txt
         2  or
         5  orb
